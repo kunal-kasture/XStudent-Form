@@ -96,11 +96,7 @@ const StudentForm = () => {
   return (
     <div className="form-container">
       <div className="form-card">
-        <h1 className="form-title">
-          Student
-          <br />
-          Registration Form
-        </h1>
+        <h1 className="form-title">Student Registration Form</h1>
 
         <form onSubmit={handleSubmit} noValidate>
           <div className="form-group">
